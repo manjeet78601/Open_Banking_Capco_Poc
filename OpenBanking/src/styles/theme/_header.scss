@@ -1,0 +1,51 @@
+// ==================================================
+// HEADER
+// ==================================================
+
+.matero-header {
+  display: block;
+  position: relative;
+  z-index: 9;
+}
+
+.matero-toolbar {
+  background: #fff;
+  color: rgba(0, 0, 0, .76);
+
+  @include mat-elevation(2);
+
+  .badge {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    min-width: 20px;
+    height: 20px;
+    font-size: 12px;
+    line-height: 1.2;
+    border-radius: 10px;
+  }
+}
+
+
+// Layout control
+.matero-header-fixed {
+  .matero-header {
+    position: sticky;
+    top: 0;
+  }
+}
+
+// Header user
+.matero-user {
+  display: inline-block;
+  padding: 0 8px;
+  color: #333;
+  font-size: 14px;
+  line-height: 40px;
+  border-radius: 4px;
+
+  &:hover {
+    background-color: rgba(0, 0, 0, .05);
+  }
+}

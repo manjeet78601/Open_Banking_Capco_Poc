@@ -1,0 +1,26 @@
+#login {
+    background: url("assets/images/login-bg.png") no-repeat left center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    min-width: 70%;
+    min-height: 100%;
+}
+
+.top {
+    margin-top: 30%; 
+}
+
+button{
+    background: #716dff;
+    height:48px;
+    color:#fff;
+}
+
+.mat-elevation-z4 {
+    box-shadow: none !important;
+}

@@ -1,0 +1,86 @@
+{
+  "menu": [
+
+    {
+      "state": "dashboard",
+      "name": "ACCOUNTS",
+      "type": "sub",
+      "icon": "color_lens",
+      "children": [{
+          "state": "account-summary",
+          "name": "Account Summary",
+          "type": "link"
+        },
+        {
+          "state": "accounts",
+          "name": "Accounts",
+          "type": "link"
+        }
+      ]
+    },
+
+    {
+      "state": "transactions",
+      "name": "Transactions",
+      "type": "sub",
+      "icon": "color_lens",
+      "children": [
+        {
+          "state": "inquire-transactions",
+          "name": "Inquire Transactions",
+          "type": "link"
+        },
+        {
+          "state": "fund-transfer",
+          "name": "Fund Transfer",
+          "type": "link"
+        },
+        {
+          "state": "create-beneficiary",
+          "name": "Create Beneficiary",
+          "type": "link"
+        },
+        {
+          "state": "bill-payments",
+          "name": "Bill Payments",
+          "type": "link"
+        }
+      ]
+    },
+
+    {
+      "state": "services",
+      "name": "Services",
+      "type": "sub",
+      "icon": "color_lens",
+      "children": [
+        {
+          "state": "account-statement",
+          "name": "Account Statement",
+          "type": "link"
+        },
+        {
+          "state": "enroll-new-account",
+          "name": "Enroll New Account",
+          "type": "link"
+        },
+        {
+          "state": "enroll-credit-card",
+          "name": "Enroll Credit Card",
+          "type": "link"
+        },
+        {
+          "state": "card-replacement",
+          "name": "Card Replacement",
+          "type": "link"
+        },
+        {
+          "state": "new-cheque-book",
+          "name": "New Cheque Book",
+          "type": "link"
+        }
+      ]
+    }
+ 
+  ]
+}

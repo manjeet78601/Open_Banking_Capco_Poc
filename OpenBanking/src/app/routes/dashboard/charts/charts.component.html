@@ -1,0 +1,20 @@
+<mat-card>
+    <mat-card-subtitle class="bg-title"> ASSET ALLOCATION </mat-card-subtitle>
+    <button mat-button [matMenuTriggerFor]="menu">
+        <mat-icon class="mat-icon notranslate material-icons mat-icon-no-color">menu</mat-icon>
+    </button>
+
+    <mat-menu #menu="matMenu" [overlapTrigger]="false">
+        <button mat-menu-item (click)="doughnutChart()"> Doughnut Chart </button>
+        <button mat-menu-item (click)="barChart()"> Bar Chart </button>
+        <button mat-menu-item (click)="pieChart()"> Pie Chart </button>
+        <button mat-menu-item (click)="lineChart()"> Line Chart </button>
+    </mat-menu>
+
+    <div class="chart-diplay">
+        <canvas id="doughnut" [ngStyle]="{'display' : showFirst ? 'initial' : 'none'}"></canvas>
+        <canvas id="bar" [ngStyle]="{'display' : showSecond ? 'initial' : 'none'}"></canvas>
+        <canvas id="pie" style="width: 100%" [ngStyle]="{'display' : showThird ? 'initial' : 'none'}"></canvas>
+        <canvas id="line" style="width: 100%" [ngStyle]="{'display' : showFourth ? 'initial' : 'none'}"></canvas>
+    </div>
+</mat-card>

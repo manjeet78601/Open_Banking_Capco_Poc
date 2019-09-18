@@ -1,0 +1,25 @@
+<mat-card>
+  <mat-card-subtitle class="ob-bg-title">PAYMENT SCHEDULES </mat-card-subtitle>
+  <mat-list>
+    <mat-list-item *ngFor="let message of messages">
+      <img matListAvatar [src]="message.img" alt="" class="recent-action-img">
+      <h3 matLine class="font-14 m-r-20"> {{message.bank}} </h3>
+      <p matLine class="ob-matline">
+        <span>{{message.date}} </span>
+      </p>
+      <p class="ob-currency">{{message.amount}} </p>
+      <mat-divider></mat-divider>
+    </mat-list-item>
+
+    <mat-card-content class="ob-button-center">
+    <button _ngcontent-gwv-c22="" color="primary" mat-stroked-button="" class="ob-add-button mat-stroked-button">
+      <span class="mat-button-wrapper">
+        <mat-icon class="icon-18 mat-icon notranslate material-icons mat-icon-no-color" role="img" aria-hidden="true">
+          add</mat-icon>
+        Add New Schedule
+      </span>
+    </button>
+  </mat-card-content>
+  </mat-list>
+
+</mat-card>

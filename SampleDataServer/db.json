@@ -1,0 +1,65 @@
+{
+  "profileInfo": [
+    {
+      "profile_pic": "./assets/images/avatar.jpg",
+      "customer_name": "John",
+      "remaining_title": "REMANING BALANCE",
+      "remaining_amount": "2,52,650.00",
+      "access_data": [
+        {
+          "icon": "./assets/images/icons/calendar.svg",
+          "icon_title": "LAST ACCESS DATE",
+          "access_date": "13 JUNE 2019"
+        },
+        {
+          "icon": "./assets/images/icons/clock.svg",
+          "icon_title": "AT TIME",
+          "access_date": "8 : 59 : 30 pm"
+        },
+        {
+          "icon": "./assets/images/icons/stats.svg",
+          "icon_title": "LOGINS LAST WEEK",
+          "access_date": "4"
+        },
+        {
+          "icon": "./assets/images/icons/stats.svg",
+          "icon_title": "LOGINS LAST MONTH",
+          "access_date": "18"
+        }
+      ]
+    }
+  ],
+  "paymentSchedule": [
+    {
+      "img": "./assets/images/icons/hdfc-bank-logo.jpg",
+      "bank": "HDFC Credit Card Payment",
+      "date": "03 August 2019",
+      "amount": "100"
+    },
+    {
+      "img": "./assets/images/icons/sbi-logo.svg",
+      "bank": "SBI",
+      "date": "03 August 2019",
+      "amount": "250"
+    },
+    {
+      "img": "./assets/images/icons/group.svg",
+      "bank": "Room Rent Payment",
+      "date": "03 August 2019",
+      "amount": "200"
+    },
+    {
+      "img": "./assets/images/icons/airtel-logo-white-text-vertical.jpg",
+      "bank": "Airtel Postpaid Bill Payment",
+      "date": "03 August 2019",
+      "amount": "250"
+    }
+  ],
+  "recentAction": [
+    {
+      "title": "Utility Bill Payments",
+      "body": "some comment",
+      "postId": 1
+    }
+  ]
+}
